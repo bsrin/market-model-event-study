@@ -74,7 +74,7 @@ Console output includes:
 ---
 
 ## Project Structure
-
+```
 market-model-event-study/
 │
 ├── src/
@@ -94,7 +94,7 @@ market-model-event-study/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
@@ -130,3 +130,4 @@ market-model-event-study/
 ## Author Note
 
 This project demonstrates applied quantitative finance methodology, financial econometrics implementation, and structured research analysis in Python.
+
