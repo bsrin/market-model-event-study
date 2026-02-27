@@ -95,7 +95,6 @@ market-model-event-study/
 ├── .gitignore
 └── README.md
 
-
 ---
 
 ## Key Findings (Sample)
@@ -131,3 +130,4 @@ market-model-event-study/
 
 
 This project was built to demonstrate applied quantitative finance methodology, financial econometrics implementation, and structured research analysis in Python.
+
