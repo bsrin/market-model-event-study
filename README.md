@@ -63,7 +63,7 @@ The `analysis/` folder contains:
 
 - Event summary statistics (CSV)
 - Average path data (CSV)
-- Visualization outputs (if enabled)
+- Visualization outputs (PNG)
 
 Console output includes:
 
@@ -94,6 +94,8 @@ market-model-event-study/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+
 ---
 
 ## Key Findings (Sample)
@@ -127,7 +129,4 @@ market-model-event-study/
 
 ## Author Note
 
-
-This project was built to demonstrate applied quantitative finance methodology, financial econometrics implementation, and structured research analysis in Python.
-
-
+This project demonstrates applied quantitative finance methodology, financial econometrics implementation, and structured research analysis in Python.
