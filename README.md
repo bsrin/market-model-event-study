@@ -75,17 +75,24 @@ Console output includes:
 
 ## Project Structure
 
-Event Impact Model/
+market-model-event-study/
 │
 ├── src/
-│ ├── data_loader.py
-│ ├── event_study.py
-│ ├── metrics.py
-│ ├── visualization.py
+│   ├── data_loader.py        # Data retrieval & return computation
+│   ├── event_study.py        # Market Model regression & abnormal returns
+│   ├── metrics.py            # CAR, MCAR, statistical testing
+│   └── visualization.py      # Plotting & confidence bands
 │
-├── analysis/
-├── main.py
-├── requirements.txt
+├── analysis/                 # Generated research outputs
+│   ├── event_summary.csv
+│   ├── GLD_average_path.csv
+│   ├── TLT_average_path.csv
+│   ├── GLD_car_plot.png
+│   └── TLT_car_plot.png
+│
+├── main.py                   # Orchestrates full event study pipeline
+├── requirements.txt          # Project dependencies
+├── .gitignore
 └── README.md
 
 
@@ -121,5 +128,6 @@ Event Impact Model/
 ---
 
 ## Author Note
+
 
 This project was built to demonstrate applied quantitative finance methodology, financial econometrics implementation, and structured research analysis in Python.
